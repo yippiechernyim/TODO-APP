@@ -8,3 +8,7 @@ app.listen(3000)
 app.post('/api', (req, res) => {
     res.json({ message: 'Hello, Node.js!' });
 });
+
+app.put('/api', (req, res) => {
+    res.json({ message: 'Hello, Node.js!' });
+});
